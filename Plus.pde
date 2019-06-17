@@ -20,12 +20,12 @@ class Plus{
   plusTimer+=2;
   
   if(killerLV >=9){
-         people1 =   loadImage("img/people1weapon.PNG");
+         people1 =   loadImage("people1weapon.PNG");
          }
          
           if(ghostLV>=6){
             greatMonk = true;
-            people3 =   loadImage("img/greatMonk.PNG");
+            people3 =   loadImage("greatMonk.PNG");
           }
   if(ending == truthEnding){
    image(bg4,0, 0);
