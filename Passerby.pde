@@ -67,10 +67,10 @@ class Passerby {
           
           
           
-          mc = loadImage("img/mcIdle.png");
+          mc = loadImage("mcIdle.png");
 
        if(countforinterview>30){
-         mc = loadImage("img/mcAsk.png");
+         mc = loadImage("mcAsk.png");
          turnAround = true;
        }
        if(countforinterview>60){
