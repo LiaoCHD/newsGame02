@@ -56,7 +56,7 @@ class Police {
           
           
           
-          mc = loadImage("img/mcIdle.png");
+          mc = loadImage("mcIdle.png");
 
        if(countforinterview>30){
          turnAround = true;
