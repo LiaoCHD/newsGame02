@@ -133,47 +133,47 @@ void setup() {
 
   
   size(960, 540,P2D);
-  truthImg = loadImage("img/truth.PNG");
-  policeImg = loadImage("img/police.png");
-  startRunDay1 = loadImage("img/starttorunDay1.png");
-  teaching1 =  loadImage("img/teaching1.png");
-  teaching2 =  loadImage("img/teaching2.png");
-  houseInside1 =  loadImage("img/final1.png");
-  startRun = loadImage("img/starttorun.png");
-  screamImage = loadImage("img/scream.png");
-  surprise = loadImage("img/surprise.PNG");
-  bg1 = loadImage("img/backGround_01.png");
-  bg2 = loadImage("img/backGround_02.png");
-  bg3 = loadImage("img/backGround_03.png");
-  bg4 = loadImage("img/backGround_04.png");
-  bg5 = loadImage("img/backGround_05.png");
-  startNormal = loadImage("img/gamestart01.png");
-  startHovered = loadImage("img/gamestart02.png");
-  mc = loadImage("img/mc-01.png");
-  house = loadImage("img/house.png");
-  bg6 = loadImage("img/backGround_06.png");
-  people1 = loadImage("img/people1.png");
-  people2 = loadImage("img/people2.png");
-  people3 = loadImage("img/people3.png");
-  people4 = loadImage("img/people4.png");
-  passerby1 = loadImage("img/passerby1.png");
-  passerby2 = loadImage("img/passerby2.png");
-  Screambro = loadImage("img/Screambro.png");
-  shock = loadImage("img/shock.PNG");
+  truthImg = loadImage("truth.PNG");
+  policeImg = loadImage("police.png");
+  startRunDay1 = loadImage("starttorunDay1.png");
+  teaching1 =  loadImage("teaching1.png");
+  teaching2 =  loadImage("teaching2.png");
+  houseInside1 =  loadImage("final1.png");
+  startRun = loadImage("starttorun.png");
+  screamImage = loadImage("scream.png");
+  surprise = loadImage("surprise.PNG");
+  bg1 = loadImage("backGround_01.png");
+  bg2 = loadImage("backGround_02.png");
+  bg3 = loadImage("backGround_03.png");
+  bg4 = loadImage("backGround_04.png");
+  bg5 = loadImage("backGround_05.png");
+  startNormal = loadImage("gamestart01.png");
+  startHovered = loadImage("gamestart02.png");
+  mc = loadImage("mc-01.png");
+  house = loadImage("house.png");
+  bg6 = loadImage("backGround_06.png");
+  people1 = loadImage("people1.png");
+  people2 = loadImage("people2.png");
+  people3 = loadImage("people3.png");
+  people4 = loadImage("people4.png");
+  passerby1 = loadImage("passerby1.png");
+  passerby2 = loadImage("passerby2.png");
+  Screambro = loadImage("Screambro.png");
+  shock = loadImage("shock.PNG");
 
-  interview = loadImage("img/interview.png");
+  interview = loadImage("interview.png");
 
-  bird = loadImage("img/bird.png");
-  drug = loadImage("img/hear.png");
-  killer = loadImage("img/killer.png");
-  ghost = loadImage("img/ghost.png");
+  bird = loadImage("bird.png");
+  drug = loadImage("hear.png");
+  killer = loadImage("killer.png");
+  ghost = loadImage("ghost.png");
   
-  report1 = loadImage("img/report1.png");
-  report2 = loadImage("img/report2.png");
+  report1 = loadImage("report1.png");
+  report2 = loadImage("report2.png");
   
-  wonder = loadImage("img/wonder.PNG");
+  wonder = loadImage("wonder.PNG");
   
-  font = createFont("font/JF-Dot-K12.ttf", 56);
+  font = createFont("JF-Dot-K12.ttf", 56);
   textFont(font);
   
   bgX = new float[30];
@@ -345,7 +345,7 @@ void initGame(){
        if(killerLV>12){
          
          screambro = new Screambro(5760,upLine);
-         Screambro = loadImage("img/Screambro.png");
+         Screambro = loadImage("Screambro.png");
        screambrofinalAppear = true;
        
        }
