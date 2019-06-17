@@ -56,10 +56,10 @@ Screambro(float x, float y){
           
           
           
-          mc = loadImage("img/mcIdle.png");
+          mc = loadImage("mcIdle.png");
 
        if(countforinterview>30){
-         mc = loadImage("img/mcAsk.png");
+         mc = loadImage("mcAsk.png");
          turnAround = true;
        }
        if(countforinterview>60){
@@ -73,32 +73,32 @@ Screambro(float x, float y){
        }
        
        if(countforinterview>150){
-             Screambro = loadImage("img/Screambrorun1.png");
+             Screambro = loadImage("Screambrorun1.png");
              shockrun+=3.5;
        }
        if(countforinterview>156){
-             Screambro = loadImage("img/Screambrorun2.png");
+             Screambro = loadImage("Screambrorun2.png");
        }
        if(countforinterview>162){
-             Screambro = loadImage("img/Screambrorun1.png");
+             Screambro = loadImage("Screambrorun1.png");
        }
        if(countforinterview>168){
-             Screambro = loadImage("img/Screambrorun2.png");
+             Screambro = loadImage("Screambrorun2.png");
        }
        if(countforinterview>174){
-             Screambro = loadImage("img/Screambrorun1.png");
+             Screambro = loadImage("Screambrorun1.png");
        }
        if(countforinterview>180){
-             Screambro = loadImage("img/Screambrorun2.png");
+             Screambro = loadImage("Screambrorun2.png");
        }
        if(countforinterview>186){
-             Screambro = loadImage("img/Screambrorun1.png");
+             Screambro = loadImage("Screambrorun1.png");
        }
        if(countforinterview>192){
-             Screambro = loadImage("img/Screambrorun2.png");
+             Screambro = loadImage("Screambrorun2.png");
        }
        if(countforinterview>198){
-             Screambro = loadImage("img/Screambrorun1.png");
+             Screambro = loadImage("Screambrorun1.png");
        }
        
        
@@ -141,10 +141,10 @@ Screambro(float x, float y){
           
           
           
-          mc = loadImage("img/mcIdle.png");
+          mc = loadImage("mcIdle.png");
 
        if(countforinterview>30){
-         mc = loadImage("img/mcAsk.png");
+         mc = loadImage("mcAsk.png");
          turnAround = true;
        }
        if(countforinterview>60){
