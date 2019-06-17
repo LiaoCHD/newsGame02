@@ -12,15 +12,15 @@ class Player {
 
   void display(){
      image(mc, x, y);
-     if(runTimer==10)mc = loadImage("img/mc-02.png");
-    if(runTimer==20)mc = loadImage("img/mc-03.png");
-    if(runTimer==30)mc = loadImage("img/mc-04.png");
-    if(runTimer==40)mc = loadImage("img/mc-05.png");
-    if(runTimer==50)mc = loadImage("img/mc-06.png");
-    if(runTimer==60)mc = loadImage("img/mc-07.png");
-    if(runTimer==70)mc = loadImage("img/mc-08.png");
+     if(runTimer==10)mc = loadImage("mc-02.png");
+    if(runTimer==20)mc = loadImage("mc-03.png");
+    if(runTimer==30)mc = loadImage("mc-04.png");
+    if(runTimer==40)mc = loadImage("mc-05.png");
+    if(runTimer==50)mc = loadImage("mc-06.png");
+    if(runTimer==60)mc = loadImage("mc-07.png");
+    if(runTimer==70)mc = loadImage("mc-08.png");
     if(runTimer>=80){
-      mc = loadImage("img/mc-01.png");
+      mc = loadImage("mc-01.png");
       runTimer=0;
       
     }
