@@ -34,10 +34,10 @@ People02(float x, float y){
           normalSpeed=0;
           countforinterview++;
           
-          mc = loadImage("img/mcIdle.png");
+          mc = loadImage("mcIdle.png");
 
        if(countforinterview>30){
-         mc = loadImage("img/mcAsk.png");
+         mc = loadImage("mcAsk.png");
          turnAround = true;
        }
        if(countforinterview>60){
